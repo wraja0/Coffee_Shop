@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+body {
+    background: rgba(29, 28, 28, 0.781);
+    color: white;
+}
+.gamehead {
+    text-align: center;
+    width: 107%;
+    font-family: 'Island Moments', cursive;
+    font-size: 170%;
+    line-height: 50%;
+}
+.sidebar {
+    font-family: 'Island Moments', cursive;
+    font-size: 110%;
+    max-width: 55%;
+}
+div.maingame {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 70%;
+    height: 70%;
+    background: url('https://media.istockphoto.com/photos/empty-wooden-table-top-with-blur-coffee-shop-or-restaurant-interior-picture-id969671442?k=20&m=969671442&s=612x612&w=0&h=-40F0EGGcDAlHNmtTpfc1u9ePoFrYGBpDJUCZIbJiIU=');
+    background-size: 100%;
+    border-style:solid;
+    border-width: 10px;
+    border-color: azure;
+}
+.startbutton {
+    transform: translate(0%,-75%);
+}
+.gamediv {
+    display: flex;
+    flex-flow: column wrap;
+}
+.gameitem {
+    max-width: 1in;
+    position: absolute;
+}
+.typesugar {
+    width: 1.1in;
+}
+.gamecup {
+    transform: translate(375%,200%);
+    max-width: 1in;
+}
+.emptycup {
+    max-width: 1.1in;
+    transform: translate(339%,260%);
+}
+.gamemilk {
+    transform: translate(5%,152%) ;
+    max-width: 1.1in;
+}
+.gamemilk2 {
+    transform: translate(175%,153%);
+    max-width: 1.1in;
+}
+.gamemilk3 {
+    transform: translate(90%,161%);
+    max-width: 1.1in;
+}
+.gamedecanter {
+    transform: translate(510%,270%);
+    max-width: 1.2in;
+}
+.gamedecanter2 {
+    transform: translate(450%,280%);
+    max-width: 1.2in;
+}
+.gamedecanter3 {
+    transform: translate(560%,280%);
+    max-width: 1.2in;
+}
+.gamesplenda {  
+    transform: translate(700%,145%);
+    max-width: 1.2in;
+}
+.gamesugar {
+    transform: translate(780%,225%);
+}
+.gamesweetnlow {
+    height: .9in;
+    width: .97in;
+    transform: translate(8%,105%);
+}
+.gameequal {
+    transform: translate(5%,145%);
+}
+.startbutton {
+    font-family: 'Bad Script', cursive;
+    font-size: 70%;
+}
+.gamebutton, .startbutton {
+    background-image: linear-gradient(#a0a09c, #3c3d41);
+    position: absolute;
+    max-width: 10%;
+}
+.coffeebutton {
+    transform: translate(430%,1880%);
+}
+.servecoffeebutton {
+    transform: translate(430%,1200%);
+}
+.regcoffeebutton {
+    transform: translate(590%,1075%);
+}
+.drcoffeebutton {
+    transform: translate(695%,1075%);
+    }
+.decafcoffeebutton {
+    transform: translate(800%,1075%);
+}
+.wholemilkbutton {
+    transform: translate(260%,1075%);
+}
+.creambutton {
+    transform: translate(145%,1075%);
+}
+.skimmilkbutton {
+    transform: translate(30%,1075%);
+}
+.typesugar, .gamebutton, .startbutton, .endgamebutton {
+    cursor: pointer;
+}
+.gameconsole {
+    font-family: 'Bad Script', cursive;
+    background: rgba(0,0,0,.5);
+    position:absolute;
+    max-width: 19%;
+    overflow-y: scroll;
+    top: 18%;
+    bottom: 5%;
+    border-radius: 3%;
+    text-align: center;
+}
