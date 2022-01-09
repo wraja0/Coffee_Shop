@@ -1,3 +1,20 @@
+// Elements 
+let score = 0;
+let coffees = ['Decaf','Regular Coffee','Dark Roast'];
+let milks = ["Skim Milk", 'Whole Milk', 'Cream'];
+let sugars = ['Regular Sugars','Splendas','Equals',"Sweet'n Lows"];
+//Objects
+let playerChoice = {
+    sugarLevel: 0,
+    sugarChoice: 0 
+};
+let order = {
+    dairyChoice : null,
+    coffeeChoice: null,
+    sugarChoice: null,
+    sugarLevel: null,
+    number: 0
+};
 // DOM elements
 let ecup = $('.emptycup');
 let fcup = $('.fullcup');
@@ -19,24 +36,7 @@ let serveCoffeeButton = $('.servecoffeebutton');
 let endButton = $('.endgamebutton');
 let gameDiv = $('.gamediv');
 let gameConsole = $('.gameconsole')
-// Elements 
-let score = 0;
-let coffees = ['Decaf','Regular Coffee','Dark Roast'];
-let milks = ["Skim Milk", 'Whole Milk', 'Cream'];
-let sugars = ['Regular Sugars','Splendas','Equals',"Sweet'n Lows"];
-//Objects
-let playerChoice = {
-    sugarLevel: 0,
-    sugarChoice: 0 
-};
-let order = {
-    dairyChoice : null,
-    coffeeChoice: null,
-    sugarChoice: null,
-    sugarLevel: null,
-    number: 0
-};
-// Functional functions
+// Functions
 function showEcup() {
     ecup.show();
     fcup.hide();
@@ -148,7 +148,7 @@ function endGame() {
     order.number = 0;
     scroll();
 }
-// DOM FUNCTIONS
+// Event Listener Callback Functions
 function setWMilk() {
     playerChoice.dairyChoice = 1;
     $('.creambutton').hide();

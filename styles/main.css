@@ -30,6 +30,13 @@ div.maingame {
 }
 .startbutton {
     transform: translate(0%,-75%);
+    font-family: 'Bad Script', cursive;
+    font-size: 70%;
+}
+.gamebutton, .startbutton {
+    background-image: linear-gradient(#a0a09c, #3c3d41);
+    position: absolute;
+    max-width: 10%;
 }
 .gamediv {
     display: flex;
@@ -88,15 +95,6 @@ div.maingame {
 }
 .gameequal {
     transform: translate(5%,145%);
-}
-.startbutton {
-    font-family: 'Bad Script', cursive;
-    font-size: 70%;
-}
-.gamebutton, .startbutton {
-    background-image: linear-gradient(#a0a09c, #3c3d41);
-    position: absolute;
-    max-width: 10%;
 }
 .coffeebutton {
     transform: translate(430%,1880%);
