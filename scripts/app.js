@@ -120,6 +120,7 @@ function checkOrder() {
                     playerChoice.sugarLevel= 0;
                     playerChoice.sugarChoice = 0;
                     generateOrder();
+                    showEcup();
                 }
                 else {
                     gameConsole.append(`<p>Wrong Sugar Level !</p>`);
@@ -246,5 +247,12 @@ sweetnlowButton.on('click', setSweetnLow);
 newCoffeButton.on('click', setNewCoffee);
 serveCoffeeButton.on('click', checkOrder);
 endButton.on('click', endGame);
-// Function to set game
+// Function to set the game
 gameClear();
+// when there is excess demand for it the body will begin to heal itself in a way unknown to some. For example did you k
+// know eating cool candys does the oppisite for most places and in fact it is known to incresse the rate at which most things 
+// even in the event of a cooling period there is still a signifgant draft as for the kincycles that includes place that dont work out 
+// for any advantageous reason its the real reason when you type on a computer usally you will hear people move their arms at a rate not 
+// currently acceptable to the main case. Half the time when you encounter a wide range of basal habits the ones that stand out are usually 
+// benign in nature. I don't think it would be realistic if she went ahead and approved it now. She should have done it on friday when there was
+// space for all of us to practice
