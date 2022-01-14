@@ -10,11 +10,15 @@ body {
     font-family: 'Island Moments', cursive;
     font-size: 170%;
     line-height: 50%;
+    position: absolute;
+    transform: translate(3.5%,0%);
 }
 .sidebar {
+    text-align: center;
     font-family: 'Island Moments', cursive;
     font-size: 110%;
     max-width: 55%;
+    transform: translate(2%,2%);
 }
 div.maingame {
     position: absolute;
@@ -29,7 +33,7 @@ div.maingame {
     border-color: azure;
 }
 .startbutton {
-    transform: translate(115%,-75%);
+    transform: translate(115%,200%);
 }
 .gamediv {
     display: flex;
