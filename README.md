@@ -1,5 +1,5 @@
 # Coffee Shop
-Hello and welcome to <a href = "https://pages.git.generalassemb.ly/wraja899/Coffee-Shop/"> Coffee Shop.</a> An interactive web game where you get to make coffee and collect points for each drink served! Try to score as high as you can!
+Hello and welcome to <a href = "https://wraja899.github.io/Coffee_Shop/> Coffee Shop.</a> An interactive web game where you get to make coffee and collect points for each drink served! Try to score as high as you can!
 <br/>
 <img src = "https://i.imgur.com/r0JHDVS.png">
 # Getting Started
